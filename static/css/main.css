@@ -3,3 +3,11 @@ html, body {
     width: 100%;
 }
 
+nav li{
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
