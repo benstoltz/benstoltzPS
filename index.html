@@ -39,27 +39,30 @@
 
 <!--Contact form section-->
     <section id="contact">
+
+        <div class = "contactText">
+            <h1>Contact</h1>
+            <h2>Something witty</h2>
+        </div>
+
         <section id="contactForm">
             <div id="form-messages"></div>
             <form id="ajax-contact" method = "post" action="mailer.php">
-                <div class = "field">
-                    <label for = "name">Name:</label>
+                <fieldset>
+                    <label for = "name">Well hi there &lt;name&gt; &lt;/name&gt;!</label>
                     <input type="text" id="name" name="name" required>
-                </div>
 
-                <div class = "field">
-                    <label for="email">Email:</label>
+
+                    <label for="email">Your Email Address</label>
                     <input type="email" id="email" name="email" required>
-                </div>
 
-                <div class="field">
-                    <label for="message">Message:</label>
+
+                    <label for="message">What's on your mind?</label>
                     <textarea id="message" name="message" required></textarea>
-                </div>
 
-                <div class="field">
+
                     <button type="submit">Send</button>
-                </div>
+                </fieldset>
             </form>
         </section>
     </section>

@@ -1,13 +1,37 @@
-html, body {
-    height: 100%;
+article, aside, details, figcaption, figure, footer, header,
+main, nav, section, summary {
+    display: block
+}
+
+
+form {
     width: 100%;
+    margin: 5em 0 0;
 }
 
-nav li{
-    display: inline-block;
-    float: right;
-    text-decoration: none;
-    padding: 10px;
+fieldset {
+    width: 81.333333%;
+    padding: 1em 9.333333%;
+    margin: 0;
+    border: 0;
 }
 
+label {
+    display: none;
+}
 
+input, textarea {
+    width: 86.88524590163934%;
+    height: 1em;
+    margin: 0 0 1em;
+    padding: 1em 6.55737704918033%;
+    font-size: 1.125em;
+    border-radius: .5em;
+    border: 0;
+    background: #EBEFF3
+}
+
+textarea {
+    height: 9em;
+    resize: none;
+}

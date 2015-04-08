@@ -20,9 +20,7 @@ $(function() {
             type: 'POST',
             url: $(form).attr('action'),
             data: formData
-        })
-
-            .done(function(response) {
+        }).done(function(response) {
                 //Make sure that the formMessages div has the 'success' class
                 $(formMessages).removeClass('error');
                 $(formMessages).addClass('success');
@@ -34,9 +32,7 @@ $(function() {
                 $('#name').val('');
                 $('#email').val('');
                 $('#message').val('');
-            })
-
-            .fail(function (data) {
+            }).fail(function (data) {
                 //Make sure that the formMessages div has the 'error' class.
                 $(formMessages).removeClass('success');
                 $(formMessages).addClass('error');
