@@ -23,11 +23,11 @@ input, textarea {
   font-size: 1.125em;
   border-radius: .5em;
   border: 0;
-  background: #EBEFF3; }
+  background: #f5f5dc; }
 
 textarea {
   height: 9em;
   resize: none;
-  color: yellow; }
+  background-color: #f5f5dc; }
 
 /*# sourceMappingURL=main.css.map */
