@@ -1,6 +1,19 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
 article, aside, details, figcaption, figure, footer, header,
 main, nav, section, summary {
-    display: block
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -35,4 +48,17 @@ textarea {
     height: 9em;
     resize: none;
     background-color: #f5f5dc;
+}
+
+footer {
+    height: 10%;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background: gray;
+}
+
+footer > p {
+    color: red;
 }
